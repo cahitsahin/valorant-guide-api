@@ -1,0 +1,661 @@
+{
+  "maps": [
+    {
+      "displayName": "Ascent",
+      "coordinates": "Ascent is the first ‘new’ map for Valorant, in that Haven, Bind and Split were all present in the beta of the game, and Ascent was added for launch, along with the new game mode, Spike Rush. It’s unlikely to be the last new map added either, with Riot’s hero shooter set to keep growing the longer it’s out. For now, though, Ascent helps refresh the small pool of maps on offer and brings some fresh ideas to the table.",
+      "displayIcon": "assets/images/mapsImages/Ascent_Display_Icon.png",
+      "splash": "assets/images/mapsImages/Ascent_Splash.png"
+    },
+    {
+      "displayName": "Split",
+      "coordinates": "Split is the map for Valorant, in that Haven, Bind and Split were all present in the beta of the game, and Ascent was added for launch, along with the new game mode, Spike Rush. It’s unlikely to be the last new map added either, with Riot’s hero shooter set to keep growing the longer it’s out. For now, though, Ascent helps refresh the small pool of maps on offer and brings some fresh ideas to the table.",
+      "displayIcon": "assets/images/mapsImages/Split_Display_Icon.png",
+      "splash": "assets/images/mapsImages/Split_Splash.png"
+    },
+    {
+      "displayName": "Fracture",
+      "coordinates": "Fracture is map for Valorant, in that Haven, Bind and Split were all present in the beta of the game, and Ascent was added for launch, along with the new game mode, Spike Rush. It’s unlikely to be the last new map added either, with Riot’s hero shooter set to keep growing the longer it’s out. For now, though, Ascent helps refresh the small pool of maps on offer and brings some fresh ideas to the table.",
+      "displayIcon": "assets/images/mapsImages/Fracture_Display_Icon.png",
+      "splash": "assets/images/mapsImages/Fracture_Splash.png"
+    }
+  ],
+  "characters": [
+    {
+      "type": "Attacker",
+      "description": "Valorant Breach Signature Ability available at the start of the round called Fault Line Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone. You also have an Ultimate Ability called Rolling Thunder, which charges up from kills, you can also purchase two more abilities called Aftershock and Flash Point between rounds.",
+      "key": "Breach",
+      "imagePath": "assets/images/profileImages/Breach.png",
+      "iconPath": "assets/images/profileIcons/Breach_Icon.png",
+      "primaryColor": "FF26A69A",
+      "secondaryColor": "FF80CBC4",
+      "bestTeamComp": [
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Cypher",
+            "Viper",
+            "Jett"
+          ],
+          "rankAttack": 4,
+          "rankDefend": 5
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Jett",
+            "Sage",
+            "Phoenix"
+          ],
+          "rankAttack": 5,
+          "rankDefend": 4
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Sage",
+            "Omen  "
+          ],
+          "rankAttack": 5,
+          "rankDefend": 3
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Raze",
+            "Omen"
+          ],
+          "rankAttack": 3,
+          "rankDefend": 4
+        }
+      ],
+      "bestWeapon": [
+        "Shorty",
+        "Judge",
+        "Spectre"
+      ],
+      "abilities": [
+        {
+          "type": "Ability 1",
+          "name": "Aftershock",
+          "imagePath": "assets/images/abilityImages/Breach_Aftershock.png",
+          "description": "Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.",
+          "cost": "100",
+          "charges": 1
+        },
+        {
+          "type": "Ability 2",
+          "name": "Flash Point",
+          "imagePath": "assets/images/abilityImages/Breach_Flash_Point.png",
+          "description": "Equip a blinding charge. Fire the charge to set a last-acting burst through the wall. The charge detonates to blind all players looking at it.\n\nFlash Duration: 2 Seconds",
+          "cost": "200",
+          "charges": 1
+        },
+        {
+          "type": "Signature",
+          "name": "Fault Line",
+          "imagePath": "assets/images/abilityImages/Breach_Fault_Line.png",
+          "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.\n\nStun Duration: 3 Seconds",
+          "cost": "Free",
+          "charges": 1
+        },
+        {
+          "type": "Ultimate",
+          "name": "Rolling Thunder",
+          "imagePath": "assets/images/abilityImages/Breach_Rolling_Thunder.png",
+          "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.",
+          "cost": "7 Points",
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "type": "Attacker",
+      "key": "Brimstone",
+      "description": "Valorant Brimstone Signature Ability available at the start of the round called Sky Smoke Equip a tactical map. Fire to set locations where Brimstone's smoke clouds will land. Alternate Fire to confirm, launching long-lasting smoke clouds that block vision in the selected area. You also have an Ultimate Ability called Orbital Strike, which charges up from kills, you can also purchase two more abilities called Incendiary and Stim Beacon between rounds.",
+      "imagePath": "assets/images/profileImages/Brimstone.png",
+      "iconPath": "assets/images/profileIcons/Brimstone_Icon.png",
+      "primaryColor": "FFFF7043",
+      "secondaryColor": "FFFFAB91",
+      "bestTeamComp": [
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Cypher",
+            "Sage",
+            "Sova"
+          ],
+          "rankAttack": 4,
+          "rankDefend": 5
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Jett",
+            "Sage",
+            "Phoenix"
+          ],
+          "rankAttack": 5,
+          "rankDefend": 4
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Sage",
+            "Omen  "
+          ],
+          "rankAttack": 5,
+          "rankDefend": 3
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Raze",
+            "Omen  "
+          ],
+          "rankAttack": 3,
+          "rankDefend": 4
+        }
+      ],
+      "bestWeapon": [
+        "Bulldog",
+        "Guardian",
+        "Phantom"
+      ],
+      "abilities": [
+        {
+          "type": "Ability 1",
+          "name": "Incendiary",
+          "imagePath": "assets/images/abilityImages/Brimstone_Incendiary.png",
+          "description": "Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.",
+          "cost": "100",
+          "charges": 1
+        },
+        {
+          "type": "Ability 2",
+          "name": "Stim Beacon",
+          "imagePath": "assets/images/abilityImages/Brimstone_Stim_Beacon.png",
+          "description": "Equip a blinding charge. Fire the charge to set a last-acting burst through the wall. The charge detonates to blind all players looking at it.\n\nFlash Duration: 2 Seconds",
+          "cost": "200",
+          "charges": 1
+        },
+        {
+          "type": "Signature",
+          "name": "Sky Smoke",
+          "imagePath": "assets/images/abilityImages/Brimstone_Sky_Smoke.png",
+          "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.\n\nStun Duration: 3 Seconds",
+          "cost": "Free",
+          "charges": 1
+        },
+        {
+          "type": "Ultimate",
+          "name": "Rolling Thunder",
+          "imagePath": "assets/images/abilityImages/Breach_Rolling_Thunder.png",
+          "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.",
+          "cost": "7 Points",
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "type": "Duelist",
+      "key": "Jett",
+      "description": "Valorant Jett Signature Ability available at the start of the round called Tailwind Instantly propel in the direction she is moving. If Jett is standing still, she will propel forward. You also have an Ultimate Ability called Blade Storm, which charges up from kills, you can also purchase two more abilities called Cloudburst and Updraft between rounds.\n",
+      "imagePath": "assets/images/profileImages/Jett.png",
+      "iconPath": "assets/images/profileIcons/Jett_Icon.png",
+      "primaryColor": "FF0086c3",
+      "secondaryColor": "FF73e8ff",
+      "bestTeamComp": [
+        {
+          "names": [
+            "Jett",
+            "Brimstone",
+            "Cypher",
+            "Sage",
+            "Sova"
+          ],
+          "rankAttack": 4,
+          "rankDefend": 5
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Jett",
+            "Sage",
+            "Phoenix"
+          ],
+          "rankAttack": 5,
+          "rankDefend": 4
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Sage",
+            "Omen  "
+          ],
+          "rankAttack": 5,
+          "rankDefend": 3
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Raze",
+            "Omen  "
+          ],
+          "rankAttack": 3,
+          "rankDefend": 4
+        }
+      ],
+      "bestWeapon": [
+        "Bulldog",
+        "Guardian",
+        "Phantom"
+      ],
+      "abilities": [
+        {
+          "type": "Ability 1",
+          "name": "Incendiary",
+          "imagePath": "assets/images/abilityImages/Brimstone_Incendiary.png",
+          "description": "Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.",
+          "cost": "100",
+          "charges": 1
+        },
+        {
+          "type": "Ability 2",
+          "name": "Stim Beacon",
+          "imagePath": "assets/images/abilityImages/Brimstone_Stim_Beacon.png",
+          "description": "Equip a blinding charge. Fire the charge to set a last-acting burst through the wall. The charge detonates to blind all players looking at it.\n\nFlash Duration: 2 Seconds",
+          "cost": "200",
+          "charges": 1
+        },
+        {
+          "type": "Signature",
+          "name": "Sky Smoke",
+          "imagePath": "assets/images/abilityImages/Brimstone_Sky_Smoke.png",
+          "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.\n\nStun Duration: 3 Seconds",
+          "cost": "Free",
+          "charges": 1
+        },
+        {
+          "type": "Ultimate",
+          "name": "Rolling Thunder",
+          "imagePath": "assets/images/abilityImages/Breach_Rolling_Thunder.png",
+          "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.",
+          "cost": "7 Points",
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "type": "Sentinel",
+      "key": "Cypher",
+      "description": "Valorant Cypher Signature Ability available at the start of the round called Spycam Equip a spycam. Fire to place the spycam at the targeted location. REUSE this ability to take control of the camera's view. While in control of the camera. Fire to shoot a marking dart. This dart will reveal the location of any player struck by the dart. You also have an Ultimate Ability called Neural Theft, which charges up from kills, you can also purchase two more abilities called Trapwire and Cyber Cage between rounds.",
+      "imagePath": "assets/images/profileImages/Cypher.png",
+      "iconPath": "assets/images/profileIcons/Cypher_Icon.png",
+      "primaryColor": "FF4b636e",
+      "secondaryColor": "FFa7c0cd",
+      "bestTeamComp": [
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Cypher",
+            "Sage",
+            "Sova"
+          ],
+          "rankAttack": 4,
+          "rankDefend": 5
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Jett",
+            "Sage",
+            "Phoenix"
+          ],
+          "rankAttack": 5,
+          "rankDefend": 4
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Sage",
+            "Omen  "
+          ],
+          "rankAttack": 5,
+          "rankDefend": 3
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Raze",
+            "Omen  "
+          ],
+          "rankAttack": 3,
+          "rankDefend": 4
+        }
+      ],
+      "bestWeapon": [
+        "Bulldog",
+        "Guardian",
+        "Phantom"
+      ],
+      "abilities": [
+        {
+          "type": "Ability 1",
+          "name": "Incendiary",
+          "imagePath": "assets/images/abilityImages/Brimstone_Incendiary.png",
+          "description": "Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.",
+          "cost": "100",
+          "charges": 1
+        },
+        {
+          "type": "Ability 2",
+          "name": "Stim Beacon",
+          "imagePath": "assets/images/abilityImages/Brimstone_Stim_Beacon.png",
+          "description": "Equip a blinding charge. Fire the charge to set a last-acting burst through the wall. The charge detonates to blind all players looking at it.\n\nFlash Duration: 2 Seconds",
+          "cost": "200",
+          "charges": 1
+        },
+        {
+          "type": "Signature",
+          "name": "Sky Smoke",
+          "imagePath": "assets/images/abilityImages/Brimstone_Sky_Smoke.png",
+          "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.\n\nStun Duration: 3 Seconds",
+          "cost": "Free",
+          "charges": 1
+        },
+        {
+          "type": "Ultimate",
+          "name": "Rolling Thunder",
+          "imagePath": "assets/images/abilityImages/Breach_Rolling_Thunder.png",
+          "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.",
+          "cost": "7 Points",
+          "charges": 1
+        }
+      ]
+    },
+    {
+      "type": "Controller",
+      "description": "Valorant Viper Signature Ability available at the start of the round called Toxic Screen Equip a gas emitter launcher. Fire to deploy a long line of gas emitters. Re-use the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be re-used more than once. You also have an Ultimate Ability called Viper’s Pit, which charges up from kills, you can also purchase two more abilities called Snake Bite and Poison Cloud between rounds.\n",
+      "key": "Viper",
+      "imagePath": "assets/images/profileImages/Viper.png",
+      "iconPath": "assets/images/profileIcons/Viper_Icon.png",
+      "primaryColor": "FF26A69A",
+      "secondaryColor": "FF80CBC4",
+      "bestTeamComp": [
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Cypher",
+            "Sage",
+            "Sova"
+          ],
+          "rankAttack": 4,
+          "rankDefend": 5
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Jett",
+            "Sage",
+            "Phoenix"
+          ],
+          "rankAttack": 5,
+          "rankDefend": 4
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Sage",
+            "Omen  "
+          ],
+          "rankAttack": 5,
+          "rankDefend": 3
+        },
+        {
+          "names": [
+            "Breach",
+            "Brimstone",
+            "Viper",
+            "Raze",
+            "Omen  "
+          ],
+          "rankAttack": 3,
+          "rankDefend": 4
+        }
+      ],
+      "bestWeapon": [
+        "Shorty",
+        "Judge",
+        "Spectre"
+      ],
+      "abilities": [
+        {
+          "type": "Ability 1",
+          "name": "Snake Bite",
+          "imagePath": "assets/images/abilityImages/Viper_Snake_Bite.png",
+          "description": "Equip a chemical launcher. Fire to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies.\nFire a projectile that explodes into a pool of damaging acid.",
+          "cost": "100",
+          "charges": 2
+        },
+        {
+          "type": "Ability 2",
+          "name": "Poison Cloud",
+          "imagePath": "assets/images/abilityImages/Viper_Poison_Cloud.png",
+          "description": "Equip a blinding charge. Fire the charge to set a last-acting burst through the wall. The charge detonates to blind all players looking at it.\n\nFlash Duration: 2 Seconds",
+          "cost": "200",
+          "charges": 1
+        },
+        {
+          "type": "Signature",
+          "name": "Fault Line",
+          "imagePath": "assets/images/abilityImages/Breach_Fault_Line.png",
+          "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.\n\nStun Duration: 3 Seconds",
+          "cost": "Free",
+          "charges": 1
+        },
+        {
+          "type": "Ultimate",
+          "name": "Rolling Thunder",
+          "imagePath": "assets/images/abilityImages/Breach_Rolling_Thunder.png",
+          "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.",
+          "cost": "7 Points",
+          "charges": 1
+        }
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "type": "Sidearm",
+      "description": "Valorant Classic is a Sidearm weapon type and costs Free credits to purchase. This gun has a magazine capacity of 12, and fire rate of 6.75 / 2.22 per second, with a Low wall penetration. If the enemy has no armor, you will deal 78 Head Damage, 26 Torso Damage, and 22 Leg/Arm Damage per bullet",
+      "key": "Classic",
+      "fireModes": [
+        {
+          "name": "Semi-Auto",
+          "rate": "6.75"
+        },
+        {
+          "name": "3 Burst",
+          "rate": "2.22"
+        }
+      ],
+      "imagePath": "assets/images/weaponImages/Classic.png",
+      "cost": "Free",
+      "capacity": "12",
+      "rate": "6.75 / 2.22",
+      "wallPenetration": "Low",
+      "primaryColor": "FF4b636e",
+      "secondaryColor": "FFa7c0cd",
+      "distanceRate": [
+        {
+          "distance": "0-30m",
+          "head": "78",
+          "body": "26",
+          "leg": "22"
+        },
+        {
+          "distance": "30-50m",
+          "head": "66",
+          "body": "22",
+          "leg": "18"
+        }
+      ],
+      "otherSkin": [
+        "assets/images/weaponSkins/Classic_Dynasty.png"
+      ]
+    },
+    {
+      "type": "Sidearm",
+      "description": "Valorant Shorty is a Sidearm weapon type and costs 200 credits to purchase. This gun has a magazine capacity of 2, and fire rate of 3.3 per second, with a Low wall penetration. If the enemy has no armor, you will deal 36 Head Damage, 12 Torso Damage, and 10 Leg/Arm Damage per bullet\n",
+      "key": "Shorty",
+      "fireModes": [
+        {
+          "name": "Semi-Auto",
+          "rate": "3.3"
+        }
+      ],
+      "imagePath": "assets/images/weaponImages/Shorty.png",
+      "cost": "200",
+      "capacity": "7",
+      "rate": "3.3",
+      "wallPenetration": "Medium",
+      "primaryColor": "FF4b636e",
+      "secondaryColor": "FFa7c0cd",
+      "distanceRate": [
+        {
+          "distance": "0-9m",
+          "head": "34",
+          "body": "17",
+          "leg": "14"
+        },
+        {
+          "distance": "9-15m",
+          "head": "26",
+          "body": "13",
+          "leg": "11"
+        },
+        {
+          "distance": "15-20m",
+          "head": "20",
+          "body": "10",
+          "leg": "9"
+        }
+      ],
+      "otherSkin": [
+        "assets/images/weaponSkins/Classic_Dynasty.png",
+        "daddy"
+      ]
+    },
+    {
+      "type": "Shotgun",
+      "description": "Valorant Judge is a Shotgun weapon type and costs 1500 credits to purchase. This gun has a magazine capacity of 7, and fire rate of 3.5 per second, with a Medium wall penetration. If the enemy has no armor, you will deal 34 Head Damage, 17 Torso Damage, and 14 Leg/Arm Damage per bullet",
+      "key": "Judge",
+      "fireModes": [
+        {
+          "name": "Semi-Auto",
+          "rate": "3.5"
+        }
+      ],
+      "imagePath": "assets/images/weaponImages/Judge.png",
+      "cost": "1500",
+      "capacity": "7",
+      "rate": "3.5",
+      "wallPenetration": "Medium",
+      "primaryColor": "FFFF7043",
+      "secondaryColor": "FFFFAB91",
+      "distanceRate": [
+        {
+          "distance": "0-10m",
+          "head": "34",
+          "body": "17",
+          "leg": "14"
+        },
+        {
+          "distance": "10-15m",
+          "head": "26",
+          "body": "13",
+          "leg": "11"
+        },
+        {
+          "distance": "15-20m",
+          "head": "20",
+          "body": "10",
+          "leg": "9"
+        }
+      ],
+      "otherSkin": [
+        "assets/images/weaponSkins/Classic_Dynasty.png"
+      ]
+    },
+    {
+      "type": "SMG",
+      "description": "Valorant Spectre is a SMG weapon type and costs 1600 credits to purchase. This gun has a magazine capacity of 30, and fire rate of 13.33 / 12 per second, with a Medium wall penetration. If the enemy has no armor, you will deal 78 Head Damage, 26 Torso Damage, and 22 Leg/Arm Damage per bullet\n",
+      "key": "Spectre",
+      "fireModes": [
+        {
+          
+        }
+      ],
+      "imagePath": "assets/images/weaponImages/Spectre.png",
+      "cost": "1600",
+      "capacity": "30",
+      "rate": "3.3",
+      "wallPenetration": "Medium",
+      "primaryColor": "FF26A69A",
+      "secondaryColor": "FF80CBC4",
+      "distanceRate": [
+        {
+          "distance": "0-9m",
+          "head": "34",
+          "body": "17",
+          "leg": "14"
+        },
+        {
+          "distance": "9-15m",
+          "head": "26",
+          "body": "13",
+          "leg": "11"
+        },
+        {
+          "distance": "15-20m",
+          "head": "20",
+          "body": "10",
+          "leg": "9"
+        }
+      ],
+      "otherSkin": [
+        "assets/images/weaponSkins/Spectre_Arcade_MP5.png",
+        "assets/images/weaponSkins/Spectre_Luxury_1_Blue.png",
+        "assets/images/weaponSkins/Spectre_Luxury_1_Gold.png",
+        "assets/images/weaponSkins/Spectre_Luxury_1_Standard.png"
+      ]
+    }
+  ]
+}
